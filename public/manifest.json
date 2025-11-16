@@ -1,0 +1,14 @@
+{
+  "name": "Polymarket Agent",
+  "description": "Polymarket Agent is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://5749c050-4878-460d-a5ff-feb55e2314bf.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Polymarket Agent",
+      "description": "Polymarket Agent is a Base Mini App built with Zara.",
+      "url": "https://5749c050-4878-460d-a5ff-feb55e2314bf.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

@@ -7,11 +7,11 @@
   "frame": {
     "version": "next",
     "name": "Polymarket Agent",
-    "homeUrl": "https://polymarket-agent.baseapp/app",
+    "homeUrl": "https://app-5e2314bf-wzpm.vercel.app",
     "iconUrl": "https://polymarket-agent.baseapp/icon.png",
     "splashImageUrl": "https://polymarket-agent.baseapp/splash.png",
     "splashBackgroundColor": "#0a1929",
-    "webhookUrl": "https://polymarket-agent.baseapp/api/farcaster/webhook",
+    "webhookUrl": "https://app-5e2314bf-wzpm.vercel.app/api/webhook",
     "subtitle": "Automated Trading on Base",
     "description": "Automated Prediction Market Strategy & Social Trading on Base. Passively earn yield and capitalize on mispricings with minimal intervention.",
     "screenshotUrls": [
@@ -20,7 +20,13 @@
       "https://polymarket-agent.baseapp/screenshot3.png"
     ],
     "primaryCategory": "finance",
-    "tags": ["trading", "defi", "automation", "polymarket", "base"],
+    "tags": [
+      "trading",
+      "defi",
+      "automation",
+      "polymarket",
+      "base"
+    ],
     "heroImageUrl": "https://polymarket-agent.baseapp/hero.png",
     "tagline": "Automated Prediction Market Strategy",
     "ogTitle": "Polymarket Agent - Automated Trading on Base",
