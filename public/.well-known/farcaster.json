@@ -7,10 +7,10 @@
   "frame": {
     "version": "next",
     "name": "Polymarket Agent",
-    "homeUrl": "https://polymarket-agent.baseapp/app",
+    "homeUrl": "https://app-5e2314bf-ubdc.vercel.app",
     "iconUrl": "https://polymarket-agent.baseapp/icon.png",
     "splashImageUrl": "https://polymarket-agent.baseapp/splash.png",
     "splashBackgroundColor": "#0A1929",
-    "webhookUrl": "https://polymarket-agent.baseapp/api/farcaster/webhook"
+    "webhookUrl": "https://app-5e2314bf-ubdc.vercel.app/api/webhook"
   }
 }
