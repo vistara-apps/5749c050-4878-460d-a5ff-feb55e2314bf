@@ -4,22 +4,11 @@ Automated Prediction Market Strategy & Social Trading on Base
 
 ## Features
 
-- 🤖 Automated trading agent with 24/7 monitoring
-- 📊 Real-time performance metrics and analytics
-- 💰 Yield optimization and mispricing arbitrage
-- 🔔 Farcaster notifications for all agent actions
-- 🎯 Smart market selection and strategy configuration
-- 🌐 Social trading with strategy sharing and mirroring
-
-## Tech Stack
-
-- Next.js 15 with App Router
-- React 19
-- TypeScript
-- Tailwind CSS
-- OnchainKit for Base integration
-- Farcaster MiniKit for social features
-- Wagmi & Viem for blockchain interactions
+- 🤖 Automated yield optimization and arbitrage
+- 🔒 Transparent and verifiable trade execution
+- 👥 Social trading with Farcaster integration
+- 🔔 Real-time notifications for all agent activities
+- 💰 Gas-sponsored transactions via OnchainKit
 
 ## Getting Started
 
@@ -28,21 +17,37 @@ Automated Prediction Market Strategy & Social Trading on Base
 npm install
 ```
 
-2. Set up environment variables:
+2. Create `.env.local` file:
 ```bash
-NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_key_here
+cp .env.local.example .env.local
 ```
 
-3. Run the development server:
+3. Add your OnchainKit API key to `.env.local`
+
+4. Run the development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000)
+5. Open [http://localhost:3000](http://localhost:3000)
+
+## Tech Stack
+
+- Next.js 15 with App Router
+- React 19
+- OnchainKit for Base integration
+- Farcaster MiniKit for social features
+- Tailwind CSS for styling
+- TypeScript for type safety
 
 ## Deployment
 
 Deploy to Vercel or any Next.js-compatible hosting platform.
+
+Make sure to:
+1. Set environment variables
+2. Configure the Farcaster manifest at `public/.well-known/farcaster.json`
+3. Update URLs in the manifest to match your deployment domain
 
 ## License
 

@@ -22,9 +22,12 @@ const config: Config = {
         md: "10px",
         lg: "16px",
       },
-      boxShadow: {
-        card: "0 8px 24px hsla(221, 83%, 53%, 0.12)",
-        elevate: "0 4px 12px rgba(0,0,0,0.2)",
+      spacing: {
+        xs: "4px",
+        sm: "8px",
+        md: "12px",
+        lg: "20px",
+        xl: "32px",
       },
     },
   },

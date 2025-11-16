@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Providers } from "./providers";
 import "./globals.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Polymarket Agent - Automated Trading on Base",
+  title: "Polymarket Agent",
   description: "Automated Prediction Market Strategy & Social Trading on Base",
-  openGraph: {
-    title: "Polymarket Agent",
-    description: "Automated Prediction Market Strategy & Social Trading on Base",
-    images: ["/og-image.png"],
-  },
 };
 
 export default function RootLayout({

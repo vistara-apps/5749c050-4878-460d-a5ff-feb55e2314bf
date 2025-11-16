@@ -9,8 +9,8 @@
   --color-accent: #0052ff;
   --color-surface: #132f4c;
   --color-border: rgba(255, 255, 255, 0.1);
-  --color-success: #00d395;
-  --color-danger: #ff4757;
+  --color-success: #00c853;
+  --color-danger: #ff1744;
 }
 
 * {
@@ -47,10 +47,11 @@ body {
     border-color: var(--color-border);
   }
   
-  .gradient-text {
-    background: linear-gradient(135deg, #0052ff 0%, #00d395 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(0, 82, 255, 0.3);
+  }
+  
+  .glow-success {
+    box-shadow: 0 0 20px rgba(0, 200, 83, 0.3);
   }
 }
