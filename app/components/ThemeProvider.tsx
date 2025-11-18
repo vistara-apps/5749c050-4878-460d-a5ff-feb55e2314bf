@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react'
 
-type Theme = 'default' | 'celo' | 'solana' | 'base' | 'coinbase' | 'dark'
+type Theme = 'default' | 'celo' | 'solana' | 'base' | 'coinbase' | 'dark' | 'retro-futuristic'
 
 type ThemeProviderProps = {
   children: React.ReactNode
