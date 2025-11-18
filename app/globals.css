@@ -54,4 +54,26 @@ body {
   .glow-success {
     box-shadow: 0 0 20px rgba(0, 200, 83, 0.3);
   }
+
+  button {
+    image-rendering: pixelated;
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ffff00);
+    background-size: 400% 400%;
+    animation: pixel-color 3s ease-in-out infinite;
+    border: 2px solid #000;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    transition: all 0.3s;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+  }
+
+  @keyframes pixel-color {
+    0%, 100% { background-position: 0% 50%; }
+    25% { background-position: 100% 50%; }
+    50% { background-position: 100% 0%; }
+    75% { background-position: 0% 0%; }
+  }
 }
