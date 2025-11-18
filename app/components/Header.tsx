@@ -1,11 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import { Menu, X, Bell, Settings2 } from 'lucide-react';
+import { Menu, X, Bell, Settings2, Sun, Moon } from 'lucide-react';
 import { ConnectWallet } from './ConnectWallet';
+import { useTheme } from './ThemeProvider';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+  const isDark = theme === 'dark';
 
   return (
     <header className="sticky top-0 z-50 glass-effect">
@@ -36,6 +39,12 @@ export function Header() {
             </button>
             <button className="p-2 text-fg/80 hover:text-fg transition-colors duration-200">
               <Settings2 className="w-5 h-5" />
+            </button>
+            <button
+              onClick={() => setTheme(isDark ? 'default' : 'dark')}
+              className="p-2 text-fg/80 hover:text-fg transition-colors duration-200"
+            >
+              {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <ConnectWallet />
           </nav>
